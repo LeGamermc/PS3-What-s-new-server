@@ -80,3 +80,14 @@ Understanding how everything is laid out:
 **Step 11:** Enjoy!
 
 ---
+
+### Example of behaviour ###
+**to follow**: 
+
+![What to do](what-to-do.png)
+
+<br>
+
+**to !!not!! follow** (it can cause crash / be ignored if this would be the case):
+
+![What not to do](what-not-to-do.png)
