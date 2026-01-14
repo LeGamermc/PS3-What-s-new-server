@@ -5,15 +5,9 @@
 		<mtrl id="1" mname="Welcome" from="2007-01-01T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2025-12-24T15:10:00.000Z" anno="">
 			<name>Welcome</name>
 			<owner></owner>
-			<desc>Template everywhere!!</desc>
+			<desc>Your news here!</desc>
 			<url type="1">http://kns-srv2.zapto.org:82/images/template.png</url>
 			<target type="u">psvp:play?url=https://ps3-pro.github.io/Whats-New/media/ads/geohot_-_the_light_it_up_contest.mp4</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>
-		<mtrl id="2" lastm="2025-12-24T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="">
-			<desc>Template everywhere!!</desc>
-			<url type="1">http://kns-srv2.zapto.org:82/images/template.png</url>
 			<cntry agelmt="0">all</cntry>
 			<lang>all</lang>
 		</mtrl>
@@ -24,7 +18,7 @@
 			<desc>Valentine's Day!
 			Love is in the air.</desc>
 			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/valentine%27s_day.png</url>
-			<target type="u">http:/localhost/install.ps3?to=/dev_hdd0/theme&url=https:/github.com/PS3-Pro/Whats-New/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target>
+			<!-- <target type="u">http:/localhost/install.ps3?to=/dev_hdd0/theme&url=https:/github.com/PS3-Pro/Whats-New/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target> -->
 			<cntry agelmt="0">all</cntry>
 			<lang>all</lang>
 		</mtrl>
@@ -119,7 +113,7 @@
 			<lang>all</lang>
 		</mtrl>
 		<!--Christmas-->
-		<mtrl id="0" mname="Easter" from="2025-12-25T00:00:00.000Z" until="2025-12-26T00:00:00.000Z" lastm="2025-12-25T00:00:00.000Z" anno="emergency=1">
+		<mtrl id="0" mname="Easter" from="2026-12-25T00:00:00.000Z" until="2025-12-26T00:00:00.000Z" lastm="2025-12-25T00:00:00.000Z" anno="emergency=1">
 			<desc>Merry Christmas!
 			Peace and Blessings to you and your family!</desc>
 			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/christimas.png</url>
@@ -128,7 +122,7 @@
 			<lang>all</lang>
 		</mtrl>
 		<!--New Year-->
-		<mtrl id="0" mname="Easter" from="2025-01-01T00:00:00.000Z" until="2025-01-02T00:00:00.000Z" lastm="2025-01-01T00:00:00.000Z" anno="emergency=1">
+		<mtrl id="0" mname="Easter" from="2026-01-01T00:00:00.000Z" until="2025-01-02T00:00:00.000Z" lastm="2025-01-01T00:00:00.000Z" anno="emergency=1">
 			<desc>Happy New Year!
 			May this year be filled with luck, love and happiness!</desc>
 			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/new_year.png</url>
