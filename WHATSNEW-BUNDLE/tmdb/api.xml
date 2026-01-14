@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 import sys
+import requests
 from urllib.parse import parse_qs
 
 def main():
@@ -33,12 +34,29 @@ def main():
     val1, val2, val3 = parts
     
     if not os.path.exists(f"/var/www/html/tmdb/{val2}.xml"):
-        os.system(f"wget 'http://tmdb.{val1}.dl.playstation.net/tmdb/{val2}_{val3}/{val2}.xml' -O '/var/www/html/tmdb/{val2}.xml'")
-
-        os.system(f"wget http://tmdb.{val1}.dl.playstation.net/tmdb/{val2}_{val3}/ICON0.PNG -O '/var/www/html/tmdb/images/{val2}.png'")
-        
-        os.system(f"sed -i 's|<icon type=\"320x176\">[^<]*</icon>|<icon type=\"320x176\">http://kns-srv2.zapto.org:82/tmdb/images/{val2}.png</icon>|g' '/var/www/html/tmdb/{val2}.xml'")
-        redirect_url = f"http://tmdb.{val1}.dl.playstation.net/tmdb/{val2}_{val3}/{val2}.xml"
+        url = f"http://tmdb.{val1}.dl.playstation.net/tmdb/{val2}_{val3}/ICON0.PNG"
+        response = requests.get(url)
+        if response.status_code == 404:
+            with open(f"/var/www/html/tmdb/{val2}.xml", "w", encoding="utf-8") as f:
+                f.write(f'''<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<title-info rev="0">
+  <id>{val2}</id>
+  <console>ps3</console>
+  <media-type>edi</media-type>
+  <name>{val2}</name>
+  <parental-level>1</parental-level>
+  <icon type="320x176">http://kns-srv2.zapto.org:82/tmdb/images/Nonexistant.png</icon>
+  <resolution>480,576,720,1080,480SQ,576SQ</resolution>
+  <sound-format>2LPCM,5.1LPCM,7.1LPCM,Dolby,DTS</sound-format>
+</title-info>
+''')
+        else:
+            os.system(f"wget 'http://tmdb.{val1}.dl.playstation.net/tmdb/{val2}_{val3}/{val2}.xml' -O '/var/www/html/tmdb/{val2}.xml'")
+            
+            os.system(f"wget http://tmdb.{val1}.dl.playstation.net/tmdb/{val2}_{val3}/ICON0.PNG -O '/var/www/html/tmdb/images/{val2}.png'")
+            
+            os.system(f"sed -i 's|<icon type=\"320x176\">[^<]*</icon>|<icon type=\"320x176\">http://kns-srv2.zapto.org:82/tmdb/images/{val2}.png</icon>|g' '/var/www/html/tmdb/{val2}.xml'")
+            redirect_url = f"http://tmdb.{val1}.dl.playstation.net/tmdb/{val2}_{val3}/{val2}.xml"
     else:
         redirect_url = f"http://kns-srv2.zapto.org:82/tmdb/{val2}.xml"
     
