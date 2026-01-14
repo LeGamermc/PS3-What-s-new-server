@@ -34,10 +34,10 @@ Understanding how everything is laid out:
 ├── download/
 │   └── prepatched-for-4.92.2-whats-new.sprx
 │
-└── xmb.php, index.html, patch.html, styles.css
+└── whatsnew.php, index.html, patch.html, styles.css
 ```
 
-**Note:** `xmb.php` is the web version of What's New and its different categories, also compatible with the PS3.
+**Note:** `whatsnew.php` is the web version of What's New and its different categories, also compatible with the PS3, it is a python program (cgi) that show the page content for the ps3.
 
 ---
 
