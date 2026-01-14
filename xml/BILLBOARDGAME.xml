@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsx ver="1.0" rev="360" lt-id="131" anno="max-age=21600&amp;static=6&amp;rmode=0" min-sys-ver="">
+  <spc id="33537" rep="t" multi="o" anno="">
+    <mtrl id="1" mname="PS VOTE GAME" from="2007-04-02T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2026-01-02T18:37:09.000Z" anno="picks=1">
+      <name/>
+      <owner/>
+      <desc/>
+      <url type="2">http://kns-srv2.zapto.org:82/images/template.png</url>
+      <cntry agelmt="0">all</cntry>
+      <lang>all</lang>
+    </mtrl>
+  </spc>
+</nsx>

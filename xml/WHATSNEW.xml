@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsx anno="" lt-id="131" min-sys-ver="1" rev="1093" ver="1.0">
+	<spc anno="csxad=1&adspace=2,3,4,5,6,7,8,9,10" id="1" multi="o" rep="t">
+	<!-- Main Ads -->
+		<mtrl id="1" mname="Welcome" from="2007-01-01T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2025-12-24T15:10:00.000Z" anno="">
+			<name>Welcome</name>
+			<owner></owner>
+			<desc>Your news here!</desc>
+			<url type="1">http://kns-srv2.zapto.org:82/images/template.png</url>
+			<target type="u">psvp:play?url=https://ps3-pro.github.io/Whats-New/media/ads/geohot_-_the_light_it_up_contest.mp4</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+
+<!------------------------------------------------HOLYDAYS AND COMMEMORATIVE DAYS------------------------------------------->
+		<!-- Valentine's Day -->
+		<mtrl id="0" mname="Valentine's Day" from="2026-02-14T00:00:00.000Z" until="2025-02-15T00:00:00.000Z" lastm="2025-02-14T00:00:00.000Z" anno="emergency=1">
+			<desc>Valentine's Day!
+			Love is in the air.</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/valentine%27s_day.png</url>
+			<!-- <target type="u">http:/localhost/install.ps3?to=/dev_hdd0/theme&url=https:/github.com/PS3-Pro/Whats-New/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target> -->
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- Easter -->
+		<mtrl id="0" mname="Easter" from="2026-04-04T00:00:00.000Z" until="2025-04-05T00:00:00.000Z" lastm="2025-04-04T00:00:00.000Z" anno="emergency=1">
+			<desc>Happy Easter!
+			Celebrate the life.</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/easter_day.png</url>
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- Mother's Day -->
+		<mtrl id="0" mname="Easter" from="2026-05-09T00:00:00.000Z" until="2025-05-10T00:00:00.000Z" lastm="2025-05-09T00:00:00.000Z" anno="emergency=1">
+			<desc>Happy Mother's Day
+			For all the bravest women of our lives.</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/mother%27s_day.png</url>
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- Childen's Day -->
+		<mtrl id="0" mname="Easter" from="2026-06-13T00:00:00.000Z" until="2025-06-14T00:00:00.000Z" lastm="2025-06-13T00:00:00.000Z" anno="emergency=1">
+			<desc>Happy Children's Day
+			Never let the child inside you die.</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/children%27s_day.png</url>
+			<!-- <url type="73">https://ps3-pro.github.io/Whats-New/media/holydays/children%27s_day.swf</url> -->
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- Father's Day -->
+		<mtrl id="0" mname="Easter" from="2026-06-20T00:00:00.000Z" until="2025-06-21T00:00:00.000Z" lastm="2025-06-20T00:00:00.000Z" anno="emergency=1">
+			<desc>Happy Father's Day
+			For all the most incredible men in our lives.</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/father%27s_day.png</url>
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!--Independence Day -->
+		<mtrl id="0" mname="Easter" from="2026-07-04T00:00:00.000Z" until="2025-07-05T00:00:00.000Z" lastm="2025-07-04T00:00:00.000Z" anno="emergency=1">
+			<desc>Independence Day!
+			Celebrate the history of your country.</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/independence%27s_day.png</url>
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!--Labor Day -->
+		<mtrl id="0" mname="Easter" from="2026-09-07T00:00:00.000Z" until="2025-09-08T00:00:00.000Z" lastm="2025-09-07T00:00:00.000Z" anno="emergency=1">
+			<desc>Labor Day!
+			Thank you for the hard work and dedication.</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/labor%27s_day.png</url>
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!--Halloween-->
+		<mtrl id="0" mname="Easter" from="2026-10-31T00:00:00.000Z" until="2025-11-01T00:00:00.000Z" lastm="2025-10-31T00:00:00.000Z" anno="emergency=1">
+			<desc>Trick or treat?
+			Happy Halloween!</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/halloween.png</url>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!--Day of the Dead -->
+		<mtrl id="0" mname="Easter" from="2026-11-01T00:00:00.000Z" until="2025-11-02T00:00:00.000Z" lastm="2025-11-01T00:00:00.000Z" anno="emergency=1">
+			<desc>Happy Day of the Dead!
+			Celebrate the memory of the beloved ones that passed away.</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/day_of_the_dead.png</url>
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!--Thanksgiving Day -->
+		<mtrl id="0" mname="Easter" from="2026-11-25T00:00:00.000Z" until="2025-11-26T00:00:00.000Z" lastm="2025-11-25T00:00:00.000Z" anno="emergency=1">
+			<desc>Thanksgiving Day!
+			There's always something to be thankful for.</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/thanksgiving_day.png</url>
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!--Christmas Eve-->
+		<mtrl id="0" mname="Easter" from="2026-12-24T00:00:00.000Z" until="2025-12-25T00:00:00.000Z" lastm="2025-12-24T00:00:00.000Z" anno="emergency=1">
+			<desc>Christmas Eve!
+			Gather with all your loved ones.</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/christmas_eve.png</url>
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!--Christmas-->
+		<mtrl id="0" mname="Easter" from="2026-12-25T00:00:00.000Z" until="2025-12-26T00:00:00.000Z" lastm="2025-12-25T00:00:00.000Z" anno="emergency=1">
+			<desc>Merry Christmas!
+			Peace and Blessings to you and your family!</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/christimas.png</url>
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!--New Year-->
+		<mtrl id="0" mname="Easter" from="2026-01-01T00:00:00.000Z" until="2025-01-02T00:00:00.000Z" lastm="2025-01-01T00:00:00.000Z" anno="emergency=1">
+			<desc>Happy New Year!
+			May this year be filled with luck, love and happiness!</desc>
+			<url type="1">https://ps3-pro.github.io/Whats-New/media/holydays/new_year.png</url>
+			<target type="u"/>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+	</spc>
+</nsx>

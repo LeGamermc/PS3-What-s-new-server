@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS3 What's New Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PS3 What's New Server (By LeGamer)</h1>
+        </header>
+
+        <!-- Navbar with tabs -->
+        <div style="x-overflow: auto; y-overflow: hidden;" class="tab-nav">
+            <a href="#" onclick="loadIframe('whatsnew.php')" class="tab-button active">XMB What's New</a>
+            <a href="#" onclick="loadIframe('patch.html')" class="tab-button">Patch Instructions</a>
+        </div>
+
+        <!-- Iframe for content -->
+        <iframe id="content-iframe" src="whatsnew.php" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+
+    <script>
+        function loadIframe(src) {
+            document.getElementById('content-iframe').src = src;
+            var buttons = document.getElementsByClassName('tab-button');
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].className = buttons[i].className.replace(' active', '');
+            }
+            event.target.className += ' active';
+        }
+    </script>
+</body>
+</html>

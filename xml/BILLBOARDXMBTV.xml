@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsx ver="1.0" rev="429" lt-id="145" anno="" min-sys-ver="">
+  <spc id="36890" rep="t" multi="o" anno="">
+    <mtrl id="1080695617" mname="Youtube New" from="2007-08-13T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-10-28T22:48:06.000Z" anno="">
+      <name/>
+      <owner/>
+      <desc>YouTube</desc>
+      <url type="117">http://kns-srv2.zapto.org:82/images/62c86f1cc8f6e341d0763977f802f55aa1dfb204-973553.png</url>
+      <target type="u">psgm:install?contentid=UP2075-NPUP10028_00-YOUTUBE000000001&amp;url=http%3A%2F%2Fares.dl.playstation.net%2Fcdn%2FUP2075%2FNPUP10028_00%2FUjRersfAsPypGlRZKXWbDiWvxBdKwqqGKKXlDHQQvaykMilfnlvIedaaSDjvlHKLPDpeLvLjvdiakTPpdCvMJRkHhSoqZRWIkTKSH.pkg</target>
+      <cntry agelmt="0">all</cntry>
+      <lang>all</lang>
+    </mtrl>
+    <mtrl id="1080779844" mname="Netflix" from="2007-02-27T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2020-01-29T19:29:31.000Z" anno="">
+      <name/>
+      <owner/>
+      <desc/>
+      <url type="118">http://kns-srv2.zapto.org:82/images/278bde480e78ec2b04cb2f32fee8e01998175329-1215059.jpg</url>
+      <target type="u">psgm:install?contentid=UT0007-NPUP00030_00-NETFLIXRIGEL01NA&amp;url=http%3A%2F%2Fares.dl.playstation.net%2Fcdn%2FUT0007%2FNPUP00030_00%2FCVOTNwVRSQoKltUEmhqgZBTLVNdKWISOejDjAPrwLKMSHxcxqaiEVbPWQCBFlrnvYerJGUXxhXglnsLJQKmxylckLzgzMYVyFYSFx.pkg</target>
+      <cntry agelmt="0">all</cntry>
+      <lang>all</lang>
+    </mtrl>
+    <mtrl id="1080773146" mname="Amazon Prime Video_PS3" from="2007-09-05T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2017-08-31T13:11:45.000Z" anno="">
+      <name/>
+      <owner/>
+      <desc>Amazon Prime Video</desc>
+      <url type="117">http://kns-srv2.zapto.org:82/images/e8e92b9e8da655ac1c48b45ebce86dc1a0c36ca2-1178889.png</url>
+      <target type="u">psgm:install?contentid=EP4183-NPEB00344_00-LOVEFILMFULL0100&amp;url=http%3A%2F%2Fares.dl.playstation.net%2Fcdn%2FEP4183%2FNPEB00344_00%2FwWevILgpAlzOqlctwtsxuvSTImjUGIdFtIXYIkvVziCNARGvngEyuXmwwokHajkd.pkg</target>
+      <cntry agelmt="0">all</cntry>
+      <lang>all</lang>
+    </mtrl>
+    <!-- <mtrl id="4" mname="Test" from="2007-09-05T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2017-08-31T13:11:45.000Z" anno="">
+      <name/>
+      <owner/>
+      <desc>Test (normaly twitch)</desc>
+      <url type="117">http://kns-srv2.zapto.org:82/images/template.png</url>
+      <target type="u">psgm:install?contentid=EP8816-NPEB02359_00-GTWITCHXXX000001&amp;url=http%3A%2F%2Fares.dl.playstation.net%2Fcdn%2FEP8816%2FNPEB02359_00%2FEP8816-NPEB02359_00-GTWITCHXXX000001_bg_1_bdddad75ae0ff819c5f9ce358c969d06b1448b9a.pkg</target>
+      <cntry agelmt="0">all</cntry>
+      <lang>all</lang>
+    </mtrl> -->
+  </spc>
+</nsx>
