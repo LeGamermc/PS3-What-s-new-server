@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+import os
+import sys
+import requests
+from urllib.parse import parse_qs
+
+def main():
+    # Get query string from environment
+    query_string = os.environ.get('QUERY_STRING', '')
+    
+    # Parse query parameters
+    params = parse_qs(query_string)
+    
+    # Get the 'p' parameter
+    p_value = params.get('p', [''])[0]
+    
+    if not p_value:
+        print("Status: 400 Bad Request\r")
+        print("Content-Type: text/plain\r")
+        print("\r")
+        print("Error: Missing 'p' parameter")
+        sys.exit(1)
+    
+    # Split the parameter by hyphen
+    parts = p_value.split('-')
+    
+    if len(parts) != 3:
+        print("Status: 400 Bad Request\r")
+        print("Content-Type: text/plain\r")
+        print("\r")
+        print("Error: Parameter 'p' must be in format VAL1-VAL2-VAL3")
+        sys.exit(1)
+    
+    val1, val2, val3 = parts
+    
+    if val3 == 1:
+        print("Status: 200 Bad Request\r")
+        print("Content-Type: text/plain\r")
+        print("\r")
+
+            
+    redirect_url = f"http://kns-srv2.zapto.org:82/xml/XMB-{val3}-SEC.xml"
+    
+    print(f"Status: 302 Found\r")
+    print(f"Location: {redirect_url}\r")
+    print("\r")
+
+if __name__ == "__main__":
+    main()

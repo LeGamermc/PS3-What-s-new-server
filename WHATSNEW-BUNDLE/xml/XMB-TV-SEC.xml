@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nsx ver="1.0" rev="8" lt-id="146" anno="" min-sys-ver="">
+  <spc id="36891" rep="t" multi="o" anno="">
+    <mtrl id="1" mname="Netflix2 TV XMB" from="2012-01-06T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-03-11T16:33:03.000Z" anno="">
+      <name>Template</name>
+      <owner></owner>
+      <desc>template app</desc>
+      <url type="121">http://kns-srv2.zapto.org:82/tmdb/images/Template.png</url>
+      <!--<target type="u">psgm:install?contentid=EP4350-NPEB00874_00-NETFLIXRIGEL01EU&amp;url=http%3A%2F%2Fares.dl.playstation.net%2Fcdn%2FEP4350%2FNPEB00874_00%2FYeDCODnsOqtUUAlRBRjFiSOvguIDgPaUSGxXRfwnhbVBKVDxvTLAxwSwbvZKtpBF.pkg</target> -->
+      <cntry agelmt="0">all</cntry>
+      <lang>all</lang>
+    </mtrl>
+  </spc>
+</nsx>
